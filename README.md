@@ -20,3 +20,15 @@ Este repositorio contiene el **cliente frontend** de una aplicación CRUD desarr
 
 ## 📁 Estructura del proyecto
 
+client/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── ListaUsuarios.js
+│ │ ├── AgregarUsuario.js
+│ │ ├── EditarUsuario.js
+│ │ └── UsuarioIndividual.js
+│ ├── App.js
+│ ├── index.js
+│ └── App.css
+├── package.json
