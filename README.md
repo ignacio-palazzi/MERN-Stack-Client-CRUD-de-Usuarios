@@ -18,17 +18,13 @@ Este repositorio contiene el **cliente frontend** de una aplicación CRUD desarr
 - [Axios](https://axios-http.com/)
 - [Bootstrap](https://getbootstrap.com/)
 
-## 📁 Estructura del proyecto
 
-client/
-├── public/
-├── src/
-│ ├── components/
-│ │ ├── ListaUsuarios.js
-│ │ ├── AgregarUsuario.js
-│ │ ├── EditarUsuario.js
-│ │ └── UsuarioIndividual.js
-│ ├── App.js
-│ ├── index.js
-│ └── App.css
-├── package.json
+## ⚙️ Requisitos
+
+- Node.js (v16 o superior recomendado)
+- Tener el backend (servidor Express) corriendo en `http://localhost:5000`
+
+> Asegúrate de que el backend tenga habilitadas las rutas `/api/usuario/*`.
+
+
+
